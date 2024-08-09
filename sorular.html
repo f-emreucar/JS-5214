@@ -1,0 +1,36 @@
+1.soru
+
+myFunction, isminde bir fonksiyon tanımlanmış . Html dosyasında myLinks adlı id değerini seçerek x değerine atanmış .
+
+if koşuluyla display block olup olmadığını kontrol eder ve x.style.display block ise element görünür olur. ve
+x.style.display zaten görünüyorsa onu gizler çünkü display none olur . x.style.display =block element görünmüyorsa onu
+görünür yapar yani display block olur .
+
+
+
+2.soru
+
+
+
+
+/* Mobil Ekran için CSS */
+@media screen and (max-width: 480px) {
+    .topnav a {display: none;} /* Bağlantıları gizle */
+    .topnav a.icon {
+        display: block;
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav #myLinks {
+        display: none;
+        flex-direction: column;
+    }
+    .topnav #myLinks a {
+        display: block;
+        text-align: center;
+        padding: 14px;
+        border-top: 1px solid #555;
+    }
+}
